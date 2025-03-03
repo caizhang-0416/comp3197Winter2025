@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222E1F532D615C650054EC70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222E1F522D615C650054EC70 /* AppDelegate.swift */; };
+		222E1F552D615C650054EC70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222E1F542D615C650054EC70 /* SceneDelegate.swift */; };
+		222E1F5A2D615C650054EC70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222E1F582D615C650054EC70 /* Main.storyboard */; };
+		222E1F5D2D615C650054EC70 /* SmartShopper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 222E1F5B2D615C650054EC70 /* SmartShopper.xcdatamodeld */; };
+		222E1F5F2D615C660054EC70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222E1F5E2D615C660054EC70 /* Assets.xcassets */; };
+		222E1F622D615C660054EC70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222E1F602D615C660054EC70 /* LaunchScreen.storyboard */; };
+		22BDBE562D627C1600F95E06 /* ShoppingListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BDBE552D627C1600F95E06 /* ShoppingListVC.swift */; };
+		22BDBE582D627C4500F95E06 /* AddItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BDBE572D627C4500F95E06 /* AddItemVC.swift */; };
+		22BDBE5C2D627CA400F95E06 /* CategoryPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BDBE5B2D627CA400F95E06 /* CategoryPickerVC.swift */; };
+		22BDBE5E2D627CC000F95E06 /* TaxCalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BDBE5D2D627CC000F95E06 /* TaxCalculatorVC.swift */; };
+		22BDBE622D627D4700F95E06 /* EditItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BDBE612D627D4700F95E06 /* EditItemVC.swift */; };
+		22BDBE642D62934F00F95E06 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BDBE632D62934F00F95E06 /* Item.swift */; };
+		22BDBE662D62A6FF00F95E06 /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BDBE652D62A6FF00F95E06 /* LaunchScreenVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		222E1F4F2D615C650054EC70 /* SmartShopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartShopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		222E1F522D615C650054EC70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		222E1F542D615C650054EC70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		222E1F592D615C650054EC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		222E1F5C2D615C650054EC70 /* SmartShopper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartShopper.xcdatamodel; sourceTree = "<group>"; };
+		222E1F5E2D615C660054EC70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		222E1F612D615C660054EC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		222E1F632D615C660054EC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22BDBE552D627C1600F95E06 /* ShoppingListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListVC.swift; sourceTree = "<group>"; };
+		22BDBE572D627C4500F95E06 /* AddItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemVC.swift; sourceTree = "<group>"; };
+		22BDBE5B2D627CA400F95E06 /* CategoryPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerVC.swift; sourceTree = "<group>"; };
+		22BDBE5D2D627CC000F95E06 /* TaxCalculatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculatorVC.swift; sourceTree = "<group>"; };
+		22BDBE612D627D4700F95E06 /* EditItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemVC.swift; sourceTree = "<group>"; };
+		22BDBE632D62934F00F95E06 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		22BDBE652D62A6FF00F95E06 /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		222E1F4C2D615C650054EC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222E1F462D615C650054EC70 = {
+			isa = PBXGroup;
+			children = (
+				222E1F512D615C650054EC70 /* SmartShopper */,
+				222E1F502D615C650054EC70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		222E1F502D615C650054EC70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				222E1F4F2D615C650054EC70 /* SmartShopper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		222E1F512D615C650054EC70 /* SmartShopper */ = {
+			isa = PBXGroup;
+			children = (
+				222E1F522D615C650054EC70 /* AppDelegate.swift */,
+				22BDBE612D627D4700F95E06 /* EditItemVC.swift */,
+				222E1F542D615C650054EC70 /* SceneDelegate.swift */,
+				22BDBE652D62A6FF00F95E06 /* LaunchScreenVC.swift */,
+				22BDBE552D627C1600F95E06 /* ShoppingListVC.swift */,
+				22BDBE5B2D627CA400F95E06 /* CategoryPickerVC.swift */,
+				22BDBE5D2D627CC000F95E06 /* TaxCalculatorVC.swift */,
+				22BDBE572D627C4500F95E06 /* AddItemVC.swift */,
+				222E1F582D615C650054EC70 /* Main.storyboard */,
+				22BDBE632D62934F00F95E06 /* Item.swift */,
+				222E1F5E2D615C660054EC70 /* Assets.xcassets */,
+				222E1F602D615C660054EC70 /* LaunchScreen.storyboard */,
+				222E1F632D615C660054EC70 /* Info.plist */,
+				222E1F5B2D615C650054EC70 /* SmartShopper.xcdatamodeld */,
+			);
+			path = SmartShopper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		222E1F4E2D615C650054EC70 /* SmartShopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222E1F662D615C660054EC70 /* Build configuration list for PBXNativeTarget "SmartShopper" */;
+			buildPhases = (
+				222E1F4B2D615C650054EC70 /* Sources */,
+				222E1F4C2D615C650054EC70 /* Frameworks */,
+				222E1F4D2D615C650054EC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartShopper;
+			productName = SmartShopper;
+			productReference = 222E1F4F2D615C650054EC70 /* SmartShopper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		222E1F472D615C650054EC70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					222E1F4E2D615C650054EC70 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 222E1F4A2D615C650054EC70 /* Build configuration list for PBXProject "SmartShopper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 222E1F462D615C650054EC70;
+			productRefGroup = 222E1F502D615C650054EC70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222E1F4E2D615C650054EC70 /* SmartShopper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		222E1F4D2D615C650054EC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222E1F622D615C660054EC70 /* LaunchScreen.storyboard in Resources */,
+				222E1F5F2D615C660054EC70 /* Assets.xcassets in Resources */,
+				222E1F5A2D615C650054EC70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		222E1F4B2D615C650054EC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BDBE5E2D627CC000F95E06 /* TaxCalculatorVC.swift in Sources */,
+				22BDBE642D62934F00F95E06 /* Item.swift in Sources */,
+				22BDBE622D627D4700F95E06 /* EditItemVC.swift in Sources */,
+				22BDBE562D627C1600F95E06 /* ShoppingListVC.swift in Sources */,
+				22BDBE582D627C4500F95E06 /* AddItemVC.swift in Sources */,
+				222E1F5D2D615C650054EC70 /* SmartShopper.xcdatamodeld in Sources */,
+				222E1F532D615C650054EC70 /* AppDelegate.swift in Sources */,
+				22BDBE662D62A6FF00F95E06 /* LaunchScreenVC.swift in Sources */,
+				22BDBE5C2D627CA400F95E06 /* CategoryPickerVC.swift in Sources */,
+				222E1F552D615C650054EC70 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		222E1F582D615C650054EC70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222E1F592D615C650054EC70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		222E1F602D615C660054EC70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222E1F612D615C660054EC70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		222E1F642D615C660054EC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		222E1F652D615C660054EC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		222E1F672D615C660054EC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WPBK9JNZ65;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartShopper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeorgeBrownCollege.SmartShopper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		222E1F682D615C660054EC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WPBK9JNZ65;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartShopper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeorgeBrownCollege.SmartShopper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		222E1F4A2D615C650054EC70 /* Build configuration list for PBXProject "SmartShopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222E1F642D615C660054EC70 /* Debug */,
+				222E1F652D615C660054EC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222E1F662D615C660054EC70 /* Build configuration list for PBXNativeTarget "SmartShopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222E1F672D615C660054EC70 /* Debug */,
+				222E1F682D615C660054EC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		222E1F5B2D615C650054EC70 /* SmartShopper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				222E1F5C2D615C650054EC70 /* SmartShopper.xcdatamodel */,
+			);
+			currentVersion = 222E1F5C2D615C650054EC70 /* SmartShopper.xcdatamodel */;
+			path = SmartShopper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 222E1F472D615C650054EC70 /* Project object */;
+}
